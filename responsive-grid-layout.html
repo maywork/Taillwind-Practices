@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout using Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  <section>
+    <h3 class="text-3xl font-bold text-center text-sky-400 hover:text-pink-400 hover:bg-indigo-50 p-4">Grid Layout with Tailwind CSS</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-white">
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 1</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 2</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 3</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 4</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 5</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 6</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400 md:col-span-2">Box 7</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 8</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 9</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400 md:col-span-2">Box 10</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400 md:col-span-3">Box 11</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 12</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 13</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 14</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 15</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 16</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 17</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 18</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 19</div>
+      <div class="bg-blue-400 p-4 rounded-lg hover:bg-pink-400">Box 20</div>
+    </div>
+  </section>
+  <section class="pt-8 pb-8 text-center text-white">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+      <div class="md:col-span-4 bg-pink-400 border-2 border-pink-500">Header</div>
+      <div class="bg-pink-400 border-2 border-pink-500">Nav</div>
+      <div class="md:col-span-3 h-48 bg-pink-400 border-2 border-pink-500">Main Content</div>
+      <div class="md:col-span-4 bg-pink-400 border-2 border-pink-500">Footer</div>
+    </div>
+  </section>
+</body>
+</html>
